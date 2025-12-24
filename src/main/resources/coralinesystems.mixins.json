@@ -1,0 +1,23 @@
+{
+	"required": true,
+	"minVersion": "0.8",
+	"package": "net.zharok01.coralinesystems.mixin",
+	"plugin": "net.zharok01.coralinesystems.mixin.PhotoModeCommonMixinPlugin",
+	"compatibilityLevel": "JAVA_17",
+	"client": [
+		"AccessGameRenderer",
+		"AccessPostEffectPass",
+		"AccessPostEffectProcessor",
+		"MixinCamera",
+		"MixinFrustum",
+		"MixinGameRenderer",
+		"MixinRenderSystem",
+		"MixinWorldRenderer",
+		"MixinWorldRendererVanilla",
+		"compat.MixinDefaultChunkRenderer",
+		"compat.MixinSodiumWorldRenderer"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
